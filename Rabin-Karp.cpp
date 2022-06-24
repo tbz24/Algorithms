@@ -58,7 +58,7 @@ int main(){
     char txt[] = "GEEKS FOR GEEKS";
     char pat[] = "GEEK";
        
-//we mod to avoid overflowing of value but we should take as big q as possible to avoid the collison
+//we mod to avoid overflowing of value but we should take as big q as possible to avoid the collison (cung ma hash nhung ki tu khong giong, phai kiem tra nhieu lan)
     int q =INT_MAX;
     search(pat, txt, q);
 }
